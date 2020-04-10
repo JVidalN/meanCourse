@@ -1,0 +1,15 @@
+{
+  "name": "exercicios_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ex01.js",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jean Vidal <j.vidalnunes@gmail.com>",
+  "license": "MIT"
+}
