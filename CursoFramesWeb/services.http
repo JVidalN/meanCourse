@@ -1,0 +1,35 @@
+@hostname = http://localhost
+@port = 3003
+@host = {{hostname}}:{{port}}
+@contentType = application/x-www-form-urlencoded
+
+# @name getBilling
+GET {{host}}/api/billingCycles HTTP/1.1
+Content-Type: {{contentType}}
+
+###
+
+# @name getBillingById
+@id = 5f20f9ae5107ee387cb5538c
+GET {{host}}/api/billingCycles/{{id}} HTTP/1.1
+Content-Type: {{contentType}}
+
+###
+
+# @name createBilling
+POST {{host}}/api/billingCycles HTTP/1.1
+Content-Type: {{contentType}}
+
+name=Janeiro/17
+&month=1
+&year=2017
+&credits[0][name]=salario Empresa
+&credits[0][value]=6500
+&credits[1][name]=salario Professor
+&credits[1][value]=2700
+&debts[0][name]=Telefone
+&debts[0][value]=89.56
+&debts[0][status]=PAGO
+&debts[1][name]=Condominio
+&debts[1][value]=720
+&debts[1][status]=AGENDADO
