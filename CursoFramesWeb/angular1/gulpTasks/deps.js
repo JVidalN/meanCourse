@@ -4,6 +4,7 @@ const uglifycss = require('gulp-uglifycss');
 const concat = require('gulp-concat');
 
 gulp.task('deps', ['deps.js', 'deps.css', 'deps.fonts']);
+
 gulp.task('deps.js', () => {
   return gulp
     .src([
@@ -20,6 +21,7 @@ gulp.task('deps.js', () => {
     .pipe(concat('deps.min.js'))
     .pipe(gulp.dest('public/assets/js'));
 });
+
 gulp.task('deps.css', () => {
   return gulp
     .src([
@@ -33,6 +35,7 @@ gulp.task('deps.css', () => {
     .pipe(concat('deps.min.css'))
     .pipe(gulp.dest('public/assets/css'));
 });
+
 gulp.task('deps.fonts', () => {
   return gulp
     .src(['node_modules/font-awesome/fonts/*.*', 'node_modules/admin-lte/bootstrap/fonts/*.*'])

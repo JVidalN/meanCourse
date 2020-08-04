@@ -6,12 +6,14 @@ const concat = require('gulp-concat');
 const htmlmin = require('gulp-htmlmin');
 
 gulp.task('app', ['app.html', 'app.css', 'app.js', 'app.assets']);
+
 gulp.task('app.html', () => {
   return gulp
     .src('app/**/*.html')
     .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest('public'));
 });
+
 gulp.task('app.css', () => {
   return gulp
     .src('app/**/*.css')
@@ -19,6 +21,7 @@ gulp.task('app.css', () => {
     .pipe(concat('app.min.css'))
     .pipe(gulp.dest('public/assets/css'));
 });
+
 gulp.task('app.js', () => {
   return gulp
     .src('app/**/*.js')
@@ -27,6 +30,7 @@ gulp.task('app.js', () => {
     .pipe(concat('app.min.js'))
     .pipe(gulp.dest('public/assets/js'));
 });
+
 gulp.task('app.assets', () => {
   return gulp.src('app/**/*.*').pipe(gulp.dest('public/assets'));
 });
