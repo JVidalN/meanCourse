@@ -24,4 +24,4 @@
 - [x] Seção 16: Autenticação - Backend (7 / 7)
 - [x] Seção 17: Autenticação - Frontend (7 / 7)
 - [x] Seção 18: Conclusão (1 / 1)
-- [ ] Seção 19: Deploy Heroku (0 / 2)
+- [x] Seção 19: Deploy Heroku (2 / 2)
