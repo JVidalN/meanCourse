@@ -4,24 +4,6 @@
 
 > Reference: [Mongo, Express, Angular 1 e Node - Primeira APP do ZERO!](https://www.udemy.com/course/mean-primeira-aplicacao-do-zero/)
 
-<h3 align="center">
-  <a href="https://jvidaln-means-frontend.herokuapp.com/">
-    <img alt="Demo On Heroku" src="https://dummyimage.com/240x46/6b506b/ffffff.png&text=Demo+On+Heroku">
-  </a>
-</h3>
-
-### URLs:
-
-[Backend](https://jvidaln-means-frontend.herokuapp.com/) >< [Frontend](https://jvidaln-means-frontend.herokuapp.com/)
-
-### Screenshots:
-
-<p align="center">
-  <img src="github/dashboard.png" width="100%">
-  <img src="github/login.png" width="100%">
-  <img src="github/crud.png" width="100%">
-</p>
-
 ### Structure of course:
 
 - [x] Seção 01: Indrodução (7 / 7)
@@ -43,3 +25,17 @@
 - [x] Seção 17: Autenticação - Frontend (7 / 7)
 - [x] Seção 18: Conclusão (1 / 1)
 - [x] Seção 19: Deploy Heroku (2 / 2)
+
+<h3 align="center">
+  <a href="https://jvidaln-means-frontend.herokuapp.com/">
+    <img alt="Demo On Heroku" src="https://dummyimage.com/240x46/6b506b/ffffff.png&text=Demo+On+Heroku">
+  </a>
+</h3>
+
+### Screenshots:
+
+<p align="center">
+  <img src="github/dashboard.png" width="100%">
+  <img src="github/login.png" width="100%">
+  <img src="github/crud.png" width="100%">
+</p>
