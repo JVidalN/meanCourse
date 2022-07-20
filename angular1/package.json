@@ -9,6 +9,6 @@
   "author": "Jean Vidal <j.vidalnunes@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "angular": "^1.7.9"
+    "angular": "^1.8.3"
   }
 }
